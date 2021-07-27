@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#333;
+    transition:.3s all ;
+}
+
+button {
+    cursor: pointer;
+}
+
+.main {
+    width:250px;
+    height:250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+    border-radius:10px;
+    transition: .5s ;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.658) 0px -5px 0px inset;
+}
+
+.main .text-change {
+    font-size:5rem;
+    color:#fff;
+}
+
+.main .reset-btn {
+    background-color: rgba(255, 255, 255, 0.658);
+    border:none;
+    padding:5px 20px;
+    border-radius: 5px;
+}
+
+.sub {
+    margin:10px;
+}
+
+.sub .outer-btn {
+    border:none;
+    width:39px;
+    height:40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius:5px;
+}
+
+.sub .outer-btn i{
+    font-size:2rem;
+    color: #333;
+}
